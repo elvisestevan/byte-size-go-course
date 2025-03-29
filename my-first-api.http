@@ -1,0 +1,9 @@
+### GET request to example server
+GET http://localhost:8080/todo
+
+### POST Ad Todo Item
+POST http://localhost:8080/todo
+
+{
+  "item": "get groceries"
+}
