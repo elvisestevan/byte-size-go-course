@@ -1,5 +1,18 @@
+### DELETE Todo Item
+DELETE http://localhost:8080/todo
+
+{
+  "item": "get groceries"
+}
+
 ### GET request to example server
 GET http://localhost:8080/todo
+
+### GET Search Groceries
+GET http://localhost:8080/todo/search?term=groceries
+
+### GET Search Shopping
+GET http://localhost:8080/todo/search?term=shopping
 
 ### POST Ad Todo Item
 POST http://localhost:8080/todo
@@ -7,3 +20,4 @@ POST http://localhost:8080/todo
 {
   "item": "get groceries"
 }
+
